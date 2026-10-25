@@ -1,0 +1,5 @@
+run,params_M,lr,seed,epochs,best_val,best_epoch,best_val_ppl,final_train,final_val,gap,min_per_run,diverged,heads,head_dim
+1 head (head dim 256),28.954,1e-04,123,38,4.666,29,106.241,3.271,4.738,1.467,2.794,False,1,256
+2 heads (head dim 128),28.954,1e-04,123,38,4.666,29,106.299,3.278,4.73,1.452,2.746,False,2,128
+4 heads (head dim 64),28.954,1e-04,123,38,4.676,25,107.352,3.299,4.741,1.442,2.752,False,4,64
+8 heads (head dim 32),28.954,1e-04,123,38,4.689,25,108.785,3.306,4.754,1.448,2.774,False,8,32

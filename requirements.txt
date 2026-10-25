@@ -1,0 +1,6 @@
+torch>=2.1
+tiktoken>=0.5
+numpy
+pandas
+matplotlib
+jupyter

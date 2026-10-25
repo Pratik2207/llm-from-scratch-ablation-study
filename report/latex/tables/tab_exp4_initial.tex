@@ -1,0 +1,15 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+Variant & Layers & Params (M) & Best val. & Best epoch & Final train & Final val. \\
+\midrule
+Full model (reference) & 4 & 28.95 & 4.676 & 25 & 3.299 & 4.741 \\
+No LayerNorm & 4 & 28.95 & 4.627 & 37 & 3.710 & 4.630 \\
+No shortcut & 4 & 28.95 & 5.564 & 38 & 5.281 & 5.564 \\
+No FFN & 4 & 26.85 & 4.747 & 37 & 3.751 & 4.748 \\
+\midrule
+Full model (reference) & 12 & 35.27 & 4.653 & 29 & 3.335 & 4.696 \\
+No LayerNorm & 12 & 35.25 & 4.613 & 37 & 3.799 & 4.616 \\
+No shortcut & 12 & 35.27 & 6.316 & 11 & 6.274 & 6.342 \\
+No FFN & 12 & 28.95 & 4.824 & 37 & 4.047 & 4.831 \\
+\bottomrule
+\end{tabular}

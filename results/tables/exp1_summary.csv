@@ -1,0 +1,4 @@
+run,params_M,lr,seed,epochs,best_val,best_epoch,best_val_ppl,final_train,final_val,gap,min_per_run,diverged
+lr = 0.0001,28.954,1e-04,123,500,4.676,25,107.344,0.006,9.973,9.967,36.228,False
+lr = 0.001,28.954,1e-03,123,500,4.809,14,122.662,0.009,9.645,9.635,35.833,False
+lr = 0.01,28.954,1e-02,123,500,4.951,53,141.364,0.113,8.588,8.475,35.719,False

@@ -1,0 +1,14 @@
+\begin{tabularx}{\textwidth}{@{}p{3.6cm}X@{}}
+\toprule
+Model & Generated continuation (temperature 0.8, top-$k$ 40, seed 123) \\
+\midrule
+Baseline, epoch 1 & \emph{I am sure that} as as the,, very that. have. very ; I you $\diamond$,, ,I you was she. you, were,. that $\diamond$ \\ \addlinespace[2pt]
+Baseline, epoch 10 & \emph{I am sure that} and the other, for you have a great deal of you himself. I have had not you she\_ did not so certain of my father to \ldots \\ \addlinespace[2pt]
+Baseline, epoch 20 & \emph{I am sure that} is not in the being so much disposed of not so much engaged. This I did not likely to be for the next morning at least \ldots \\ \addlinespace[2pt]
+LR $10^{-3}$, epoch 500 & \emph{I am sure that} is but the only joined me with you. I had have you have done with an particulars.” “I had my dear Miss Bingley; but I had \ldots \\ \addlinespace[2pt]
+Full model, 4L, ep.\ 60 & \emph{I am sure that} when we were very attentive to the very subject.” “If he.” “If he cried Mrs. JenkinsI am sorry with two or little my instrument,” said Mrs. \ldots \\ \addlinespace[2pt]
+No LayerNorm, 4L, ep.\ 60 & \emph{I am sure that} theOh, my word is disposed to take it.” Their first thought it of all; but he first witnessing his altered by Derbyshire. And yet seen such \ldots \\ \addlinespace[2pt]
+No shortcut, 4L, ep.\ 60 & \emph{I am sure that} as as the,,. be the that., of have. . ; I you ,$\diamond$,, , you was she. you was.,. it that is the \\ \addlinespace[2pt]
+No FFN, 4L, ep.\ 60 & \emph{I am sure that} the become of her, and her, and her poultry. or affair is perfectly sure, and Jane may be attended to her, if he had never joined \ldots \\ \addlinespace[2pt]
+\bottomrule
+\end{tabularx}

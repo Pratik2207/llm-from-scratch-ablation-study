@@ -1,0 +1,9 @@
+layers,variant,"best_val (lr 1e-04, 38 ep)",best_epoch (low lr),"best_val (lr 1e-03, 60 ep)",best_epoch (high lr),diverged (high lr)
+4,Full model (reference),4.676,25,4.818,12,False
+4,No LayerNorm,4.627,37,4.642,5,False
+4,No shortcut,5.564,38,6.329,2,False
+4,No FFN,4.747,37,4.823,10,False
+12,Full model (reference),4.653,29,4.841,20,False
+12,No LayerNorm,4.613,37,4.633,10,False
+12,No shortcut,6.316,11,6.333,2,False
+12,No FFN,4.824,37,4.816,16,False

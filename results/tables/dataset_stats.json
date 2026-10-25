@@ -1,0 +1,14 @@
+{
+  "books": [
+    "Pride and Prejudice"
+  ],
+  "characters": 718925,
+  "total_tokens": 186785,
+  "train_tokens": 168106,
+  "val_tokens": 18679,
+  "context_length": 256,
+  "train_sequences": 656,
+  "val_sequences": 72,
+  "batch_size": 16,
+  "steps_per_epoch": 41
+}

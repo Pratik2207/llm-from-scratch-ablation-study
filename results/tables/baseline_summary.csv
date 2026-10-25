@@ -1,0 +1,2 @@
+run,params_M,lr,seed,epochs,best_val,best_epoch,best_val_ppl,final_train,final_val,gap,min_per_run,diverged
+Baseline,28.954,4e-04,123,20,4.616,10,101.045,2.473,4.973,2.5,1.392,False

@@ -1,0 +1,5 @@
+run,params_M,lr,seed,epochs,best_val,best_epoch,best_val_ppl,final_train,final_val,gap,min_per_run,diverged
+Full model (reference),28.954,1e-04,123,38,4.676,25,107.352,3.299,4.741,1.442,2.752,False
+No LayerNorm,28.95,1e-04,123,38,4.627,37,102.206,3.71,4.63,0.919,2.705,False
+No shortcut,28.954,1e-04,123,38,5.564,38,260.903,5.281,5.564,0.283,2.726,False
+No FFN,26.849,1e-04,123,38,4.747,37,115.182,3.751,4.748,0.997,2.548,False

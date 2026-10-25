@@ -1,0 +1,17 @@
+\begin{tabular}{rlrrrrrr}
+\toprule
+& & \multicolumn{2}{c}{LR $10^{-4}$, 38 epochs} & \multicolumn{4}{c}{LR $10^{-3}$, 60 epochs} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-8}
+L & Variant & Best val. & Epoch & Best val. & Epoch & Final train & Final val. \\
+\midrule
+4 & Full model (reference) & 4.676 & 25/38 & 4.818 & 12/60 & 0.273 & 7.454 \\
+4 & No LayerNorm & 4.627 & 37/38 & 4.642 & 5/60 & 0.403 & 7.476 \\
+4 & No shortcut & 5.564 & 38/38 & 6.329 & 2/60 & 6.269 & 6.364 \\
+4 & No FFN & 4.747 & 37/38 & 4.823 & 10/60 & 0.123 & 8.250 \\
+\midrule
+12 & Full model (reference) & 4.653 & 29/38 & 4.841 & 20/60 & 0.320 & 7.171 \\
+12 & No LayerNorm & 4.613 & 37/38 & 4.633 & 10/60 & 0.233 & 7.375 \\
+12 & No shortcut & 6.316 & 11/38 & 6.333 & 2/60 & 6.269 & 6.363 \\
+12 & No FFN & 4.824 & 37/38 & 4.816 & 16/60 & 0.536 & 7.340 \\
+\bottomrule
+\end{tabular}
